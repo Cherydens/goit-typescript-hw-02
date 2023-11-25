@@ -3,10 +3,10 @@
 */
 
 interface Props {
-  title: string
+  title: string;
 }
 
-class Component<T extends Props> {
+class Component<T> {
   constructor(public props: T) {}
 }
 
